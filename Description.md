@@ -1,3 +1,4 @@
+## "Vintage Insights: Unveiling Wine Characteristics through PCA Analysis"
 - **Data Gathering:**
   - Used Pandas to read a wine dataset from a CSV file.
   - Explored the dataset with basic commands such as `shape`, `info`, `isna().sum()`, and `describe()` to understand its structure and characteristics.
