@@ -6,6 +6,13 @@
   - Checked the shape, info, and summary statistics of the dataset.
   - No missing values were found.
   - Descriptive statistics were examined to understand the distribution of features.
+     - **Checked Dataset Statistics:**
+      - Employed Pandas' `describe()` function to generate descriptive statistics of the dataset, including mean, standard deviation, minimum, and maximum values.
+      - Verified basic statistics to understand the distribution and scale of the features.
+
+     - **Ensured No Missing Values:**
+      - Utilized Pandas functions such as `isnull()` to identify any missing values in the dataset.
+      - Handled missing values, if any, through techniques like imputation or removal based on the nature of the data.
   
 - **Feature Engineering:**
   - Detected outliers using the Interquartile Range (IQR) method.
@@ -49,4 +56,13 @@
 
 - **Results and Conclusion:**
   - Explored variance ratios of principal components.
+    - Examined the variance ratios of the principal components to understand the proportion of variance retained by each component.
+    - Identified a suitable number of principal components that capture a significant amount of the dataset's variability.
+
   - Trained a Logistic Regression model on the transformed data.
+     - Fitted a logistic regression model using the PCA-transformed features.
+     - Evaluated the model's performance on the test set, considering metrics such as accuracy, precision, recall, and F1 score.
+
+
+
+This project aimed to explore and analyze a wine dataset, employing techniques like PCA for dimensionality reduction and Logistic Regression for classification. The detailed steps and tools used provide a comprehensive overview of the entire data science workflow from data gathering to model evaluation.
